@@ -11,7 +11,7 @@ from sklearn.impute import SimpleImputer
 # from geopy.exc import GeocoderTimedOut
 from mpl_toolkits.basemap import Basemap
 import seaborn as sns
-# awssssssssssssssssssssssss
+# awsssssssddddddd
 
 def to_USD(rates , amount , target_currency):
     return float(amount) * rates.get(target_currency, 0)
